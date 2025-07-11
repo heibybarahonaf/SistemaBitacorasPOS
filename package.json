@@ -8,6 +8,12 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "scripts": {
+  "dev": "next dev",
+  "build": "prisma generate && next build",
+  "start": "next start",
+  "prisma:generate": "prisma generate"
+},
   "dependencies": {
     "@prisma/client": "^6.10.1",
     "axios": "^1.10.0",
